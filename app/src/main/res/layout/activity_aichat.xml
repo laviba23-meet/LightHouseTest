@@ -17,9 +17,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/welcome_text"
         android:layout_centerInParent="true"
-        android:text="LightHouse AI"
+        android:text="Aurora"
         android:gravity="center"
-        android:textSize="28dp"
+        android:textSize="38dp"
         />
     <RelativeLayout
         android:layout_width="match_parent"
