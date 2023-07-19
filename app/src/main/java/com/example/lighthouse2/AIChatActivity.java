@@ -106,7 +106,7 @@ public class AIChatActivity extends AppCompatActivity {
         RequestBody body = RequestBody.create(jsonBody.toString(),JSON);
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/completions")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer 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")
                 .post(body)
                 .build();
         client.newCall(request).enqueue(new Callback() {
@@ -132,9 +132,10 @@ public class AIChatActivity extends AppCompatActivity {
                     addResponse("Failed to respond due to " + response.body().string());
                 }
             }
-        });
+                    });
 
 
 
-    }
+                }
+
 }
